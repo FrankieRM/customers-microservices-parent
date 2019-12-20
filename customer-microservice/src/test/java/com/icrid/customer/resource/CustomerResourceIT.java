@@ -1,6 +1,6 @@
 package com.icrid.customer.resource;
 
-import com.icrid.customer.DemoApplication;
+import com.icrid.customer.CustomerMicroserviceApplication;
 import com.icrid.customer.domain.Customer;
 import com.icrid.customer.repository.CustomerRepository;
 import com.icrid.customer.service.CustomerService;
@@ -15,8 +15,8 @@ import org.springframework.validation.Validator;
 
 import java.util.List;
 
-import static com.icrid.customer.DummyMock.buildCustomer;
-import static com.icrid.customer.DummyMock.convertObjectToJsonBytes;
+import static com.icrid.customer.utils.DummyMock.buildCustomer;
+import static com.icrid.customer.utils.DummyMock.convertObjectToJsonBytes;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.hamcrest.Matchers.hasItem;
 import static org.springframework.http.MediaType.APPLICATION_JSON_UTF8;
@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.setup.MockMvcBuilders.standal
 /**
  * Test de Integracion para el Controlador REST {@link CustomerResource}.
  */
-@SpringBootTest(classes = DemoApplication.class)
+@SpringBootTest(classes = CustomerMicroserviceApplication.class)
 class CustomerResourceIT {
 
     @Autowired

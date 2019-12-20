@@ -13,10 +13,10 @@ import org.mockito.Mock;
 
 import java.util.List;
 
-import static com.icrid.customer.DummyMock.buildAges;
-import static com.icrid.customer.DummyMock.buildCustomer;
-import static com.icrid.customer.DummyMock.buildCustomerSaved;
-import static com.icrid.customer.DummyMock.buildKpiCustomers;
+import static com.icrid.customer.utils.DummyMock.buildAges;
+import static com.icrid.customer.utils.DummyMock.buildCustomer;
+import static com.icrid.customer.utils.DummyMock.buildCustomerSaved;
+import static com.icrid.customer.utils.DummyMock.buildKpiCustomers;
 import static java.util.Collections.singletonList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

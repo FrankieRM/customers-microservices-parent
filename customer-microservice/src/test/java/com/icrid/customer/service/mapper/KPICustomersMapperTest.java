@@ -9,8 +9,8 @@ import org.mockito.Mock;
 
 import java.util.List;
 
-import static com.icrid.customer.DummyMock.buildAges;
-import static com.icrid.customer.DummyMock.buildKpiCustomers;
+import static com.icrid.customer.utils.DummyMock.buildAges;
+import static com.icrid.customer.utils.DummyMock.buildKpiCustomers;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;

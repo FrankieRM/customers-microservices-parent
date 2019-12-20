@@ -7,7 +7,7 @@ import org.mockito.InjectMocks;
 
 import java.time.LocalDate;
 
-import static com.icrid.customer.DummyMock.buildCustomer;
+import static com.icrid.customer.utils.DummyMock.buildCustomer;
 import static com.icrid.customer.service.utils.CustomerUtils.PROBABLE_INITIAL_DEATH_YEAR;
 import static com.icrid.customer.service.utils.CustomerUtils.PROBABLE_MAX_DEATH_YEAR;
 import static java.time.Month.DECEMBER;

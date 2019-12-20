@@ -1,4 +1,4 @@
-package com.icrid.customer;
+package com.icrid.customer.utils;
 
 import com.icrid.customer.domain.Customer;
 import com.icrid.customer.dto.KPICustomers;

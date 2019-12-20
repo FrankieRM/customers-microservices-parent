@@ -8,7 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 
-import static com.icrid.customer.DummyMock.buildCustomer;
+import static com.icrid.customer.utils.DummyMock.buildCustomer;
 import static com.icrid.customer.errors.WrongAgeOrBirthDayCustomerException.WRONG_AGE_OR_BIRTHDAY_CUSTOMER_EXCEPTION_MESSAGE;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
